@@ -467,6 +467,10 @@ p{font-family: "微软雅黑";}
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
 }
 .text-img2{
     width:400px;
@@ -478,6 +482,10 @@ p{font-family: "微软雅黑";}
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
 
 }
 .text-img2 .text-h{
@@ -532,7 +540,6 @@ p{font-family: "微软雅黑";}
 .download-1 .down-left img{
     width:100%;
     height:100%;
-
 }
 .download-1 .down-right{
     float:right;
