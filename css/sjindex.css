@@ -352,13 +352,27 @@
             color:#f08300;
 
         }
-         .text-img p{
+        .function-2 .text-img2 ,.function-4 .text-img2 ,.function-6 .text-img2 ,.function-8 .text-img2{
+            width:237.5px;
+            height:168.75px;
+            opacity:1;
+            border-radius: 10px;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color:#f08300;
+
+        }
+
+         .text-img2 p{
             margin:15px auto;
         }
-         .text-img .text-h{
+         .text-img2 .text-h{
             font-size: 37.5px;
         }
-         .text-img .text-z{
+         .text-img2 .text-z{
             font-size: 16px;
             width:87.5px;
             height:31.25px;
@@ -368,7 +382,7 @@
             margin:0 auto;
             color:#FFF;
         }
-         .text-img .text-y{
+         .text-img2 .text-y{
             font-size: 22px;
         }
  /*第三个页面*/
@@ -467,6 +481,7 @@
         }
         .about-1 .text-guan h2{
             font-size: 20px;
+            text-align: justify;
         }
         .about-1 .text-guan p{
             font-size: 16px;
