@@ -6,6 +6,26 @@
     <meta name="format-detection" content="telephone=no" />
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/index.css">
+    <script type="javascript">//平台、设备和操作系统
+        var system = {
+            win: false,
+            mac: false,
+            xll: false,
+            ipad:false
+        };
+        //检测平台
+        var p = navigator.platform;
+        system.win = p.indexOf("Win") == 0;
+        system.mac = p.indexOf("Mac") == 0;
+        system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+        system.ipad = (navigator.userAgent.match(/iPad/i) != null)?true:false;
+        //跳转语句，如果是PC访问就自动跳转到所要访问的页面http://www.电脑.com
+        if (system.win || system.mac || system.xll||system.ipad) {
+            //默认访问http://www.电脑.com
+        } else {
+            window.location.href = "sjindex.html";
+        }
+    </script>
 </head>
 <body>
 <div class="section1">
@@ -24,8 +44,8 @@
 <div class="section2">
     <img src="img/1/bj2.png" alt="图片" class="imgda">
     <div class="bao">
-        <a href="https://www.baidu.com"><img src="img/1/bao-1.png" alt="安装包下载图片"></a>
-        <a href="https://www.baidu.com"><img src="img/1/bao-2.png" alt="安装包下载图片"></a>
+        <a href="#"><img src="img/1/bao-1.png" alt="安装包下载图片"></a>
+        <a href="#"><img src="img/1/bao-2.png" alt="安装包下载图片"></a>
     </div>
     <div class="img3">
         <img src="img/sjimg/sec12.png" alt="图片">
