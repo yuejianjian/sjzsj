@@ -862,13 +862,25 @@
             text-align: center;
             color:#f08300;
         }
-        .text-img p{
+        .function-2 .text-img2 ,.function-4 .text-img2 ,.function-6 .text-img2 ,.function-8 .text-img2{
+            width:211px;
+            height:150px;
+            opacity:1;
+            border-radius: 10px;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color:#f08300;
+        }
+        .text-img2 p{
             margin:13px auto;
         }
-        .text-img .text-h{
+        .text-img2 .text-h{
             font-size: 33px;
         }
-        .text-img .text-z{
+        .text-img2 .text-z{
             font-size: 14px;
             width:87.5px;
             height:28px;
@@ -878,7 +890,7 @@
             margin:0 auto;
             color:#FFF;
         }
-        .text-img .text-y{
+        .text-img2 .text-y{
             font-size: 19.4px;
         }
         /*第三个页面*/
@@ -1355,13 +1367,25 @@
             text-align: center;
             color:#f08300;
         }
-        .text-img p{
+        .function-2 .text-img2 ,.function-4 .text-img2 ,.function-6 .text-img2 ,.function-8 .text-img2{
+            width:190px;
+            height:135px;
+            opacity:1;
+            border-radius: 10px;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color:#f08300;
+        }
+        .text-img2 p{
             margin:12px auto;
         }
-        .text-img .text-h{
+        .text-img2 .text-h{
             font-size: 30px;
         }
-        .text-img .text-z{
+        .text-img2 .text-z{
             font-size: 12.5px;
             width:70px;
             height:25px;
@@ -1371,7 +1395,7 @@
             margin:0 auto;
             color:#FFF;
         }
-        .text-img .text-y{
+        .text-img2 .text-y{
             font-size: 17.5px;
         }
         /*第三个页面*/
