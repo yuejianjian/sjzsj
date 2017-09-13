@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>测试页面</title>
-    <script type="javascript">
-        var system = {
-            win: false,
-            mac: false,
-            xll: false,
-            ipad:false
-        };
-        //检测平台
-        var p = navigator.platform;
-        system.win = p.indexOf("Win") == 0;
-        system.mac = p.indexOf("Mac") == 0;
-        system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
-        system.ipad = (navigator.userAgent.match(/iPad/i) != null)?true:false;
-        //跳转语句，如果是PC访问就自动跳转到所要访问的页面http://www.电脑.com
-        if (system.win || system.mac || system.xll||system.ipad) {
-            //默认访问http://www.电脑.com
-            window.location.href = "https://yuejianjian.github.io/sjzsj/index.html";
-        } else {
-            window.location.href = "https://yuejianjian.github.io/sjzsj/sjindex.html";
+    <script type="text/javascript">
+        function pandua() {
+            var system = {
+                win: false,
+                mac: false,
+                xll: false,
+                ipad: false
+            };
+            //检测平台
+            var p = navigator.platform;
+            system.win = p.indexOf("Win") == 0;
+            system.mac = p.indexOf("Mac") == 0;
+            system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+            system.ipad = (navigator.userAgent.match(/iPad/i) != null) ? true : false;
+            //跳转语句，如果是PC访问就自动跳转到所要访问的页面http://www.电脑.com
+            if (system.win || system.mac || system.xll || system.ipad) {
+                //默认访问http://www.电脑.com
+                window.location.href = "https://yuejianjian.github.io/sjzsj/index.html";
+            } else {
+                window.location.href = "https://yuejianjian.github.io/sjzsj/sjindex.html";
+            }
         }
+        pandua();
     </script>
 </head>
 <body>
